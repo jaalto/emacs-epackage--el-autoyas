@@ -52,7 +52,7 @@
 
 (require 'eldoc)
 (require 'yasnippet nil t)
-(require 'yasnippet-bundle nil t)
+;; (require 'yasnippet-bundle nil t)
 
 (defgroup el-autoyas nil
   "Automatic gerenation of Yasnippets based on Emacs Lisp documentation"
