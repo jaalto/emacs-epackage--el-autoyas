@@ -2,4 +2,4 @@
 (autoload 'el-autoyas-snippet                   "el-autoyas" "" nil)
 (autoload 'el-autoyas-text-on-moving-away       "el-autoyas" "" nil)
 (autoload 'el-autoyas-update                    "el-autoyas" "" nil)
-(provide 'yasnippet-elisp-epkg-autoloads)
+(provide 'el-autoyas-elisp-epkg-autoloads)
