@@ -1,0 +1,18 @@
+Package: yasnippet-elisp
+Section: extensions
+License: GPL-3+
+Depends: emacs (>= 22)
+Status: stable
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Matthew L. Fidler <matthew.fidler@gmail.com>
+Upstream-Bugs:
+Vcs-Type: git
+Vcs-Url:  git://github.com/mlf176f2/el-autoyas.el.git
+Vcs-Browser: https://github.com/mlf176f2/el-autoyas.el
+Homepage: https://github.com/mlf176f2/el-autoyas.el
+Wiki: http://www.emacswiki.org/emacs/
+Commentary: el-autoyas.el
+Description: yasnippet extension for creating Emacs-Lisp snippets automatically
+ Automatic gerenation of Yasnippets based on Emacs Lisp documentation
