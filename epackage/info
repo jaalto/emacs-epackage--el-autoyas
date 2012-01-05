@@ -1,4 +1,4 @@
-Package: yasnippet-elisp
+Package: el-autoyas
 Section: extensions
 License: GPL-3+
 Depends: emacs (>= 22)
