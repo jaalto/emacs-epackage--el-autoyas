@@ -256,14 +256,14 @@
     (when snippet
       (yas/update-mirrors snippet))))
 
-;;;###autoload
-(add-hook 'emacs-lisp-mode-hook
-          '(lambda ()
-             (require 'el-autoyas nil t)
-             (when (featurep 'el-autoyas)
-               (set (make-local-variable 'yas/fallback-behavior)
-                    '(apply el-autoyas-expand-maybe))
-               (yas/minor-mode 1))))
+
+;; (add-hook 'emacs-lisp-mode-hook
+;;           '(lambda ()
+;;              (require 'el-autoyas nil t)
+;;              (when (featurep 'el-autoyas)
+;;                (set (make-local-variable 'yas/fallback-behavior)
+;;                     '(apply el-autoyas-expand-maybe))
+;;                (yas/minor-mode 1))))
 
 
 (provide 'el-autoyas)
