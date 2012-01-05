@@ -10,4 +10,4 @@
 
 (add-hook 'emacs-lisp-mode-hook 'el-autoyas-epkg-enable)
 
-(provide 'yasnippet-elisp-epkg-install)
+(provide 'el-autoyas-elisp-epkg-install)
